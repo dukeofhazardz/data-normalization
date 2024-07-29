@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const { dataNormalization } = require("./function");
+const { dataNormalization } = require("../function/function");
 
 const app = express();
 app.use(bodyParser.json());

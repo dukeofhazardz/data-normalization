@@ -4,7 +4,7 @@
   "description": "A cloud function that allows you to normalize a given dataset by scaling the values to a specific range.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node api/index.js",
     "test": "jest"
   },
   "repository": {
