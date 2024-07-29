@@ -1,0 +1,29 @@
+{
+  "name": "data-normalization",
+  "version": "1.0.0",
+  "description": "A cloud function that allows you to normalize a given dataset by scaling the values to a specific range.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukeofhazardz/data-normalization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukeofhazardz/data-normalization/issues"
+  },
+  "homepage": "https://github.com/dukeofhazardz/data-normalization#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mathjs": "^13.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
